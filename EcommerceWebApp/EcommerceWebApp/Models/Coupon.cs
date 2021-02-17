@@ -9,7 +9,7 @@ namespace EcommerceWebApp.Models
     public class Coupon
     {
         [Key]
-        public int ÌD { get; set; }
+        public int ID { get; set; }
         [Required]
         public string Name { get; set; }
 

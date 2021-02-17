@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaunda.dum\\source\\repos\\EcommerceWebApplication\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp.csproj": {}
+    "C:\\Users\\kaunda.dum\\Documents\\GitHub\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaunda.dum\\source\\repos\\EcommerceWebApplication\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp.csproj": {
+    "C:\\Users\\kaunda.dum\\Documents\\GitHub\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaunda.dum\\source\\repos\\EcommerceWebApplication\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\kaunda.dum\\Documents\\GitHub\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp.csproj",
         "projectName": "EcommerceWebApp",
-        "projectPath": "C:\\Users\\kaunda.dum\\source\\repos\\EcommerceWebApplication\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp.csproj",
+        "projectPath": "C:\\Users\\kaunda.dum\\Documents\\GitHub\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp.csproj",
         "packagesPath": "C:\\Users\\kaunda.dum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaunda.dum\\source\\repos\\EcommerceWebApplication\\EcommerceWebApp\\EcommerceWebApp\\obj\\",
+        "outputPath": "C:\\Users\\kaunda.dum\\Documents\\GitHub\\EcommerceWebApp\\EcommerceWebApp\\EcommerceWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -77,7 +77,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
