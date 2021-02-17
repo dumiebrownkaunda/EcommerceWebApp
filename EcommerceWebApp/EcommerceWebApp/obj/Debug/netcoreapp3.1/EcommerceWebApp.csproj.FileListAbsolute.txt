@@ -1437,3 +1437,7 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\EcommerceWebApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\EcommerceWebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Index.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Create.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Details.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Delete.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThumbnailAreaPartial.cshtml.g.cs
