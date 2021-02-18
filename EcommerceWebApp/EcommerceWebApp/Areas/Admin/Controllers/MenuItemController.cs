@@ -98,7 +98,7 @@ namespace EcommerceWebApp.Areas.Admin.Controllers
                 NotFound();
             }
 
-            MenuItemVM.MenuItem = await _dBContext.MenuItem.Include(m => m.Category).Include(m => m.SubCategory).SingleOrDefaultAsync();
+            MenuItemVM.MenuItem = await _dBContext.MenuItem.Include(m => m.Category).Include(m => m.SubCategory).SingleOrDefaultAsync(m=>m.ID ==id);
             MenuItemVM.SubCategory = await _dBContext.SubCategory.Where(s => s.CategoryId == MenuItemVM.MenuItem.CategoryId).ToListAsync();
 
             if (MenuItemVM.MenuItem == null)

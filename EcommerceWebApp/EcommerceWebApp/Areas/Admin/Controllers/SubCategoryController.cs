@@ -79,7 +79,7 @@ namespace EcommerceWebApp.Areas.Admin.Controllers
         }
 
         [ActionName("GetSubCategory")]
-        public async Task<IActionResult> GetSubCtaegory(int id)
+        public async Task<IActionResult> GetSubCategory(int id)
         {
             List<SubCategory> subCategories = new List<SubCategory>();
 
