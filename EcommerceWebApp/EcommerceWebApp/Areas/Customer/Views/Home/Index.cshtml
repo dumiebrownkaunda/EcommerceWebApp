@@ -1,12 +1,12 @@
 ﻿@model EcommerceWebApp.Models.ViewModels.IndexViewModel
 
-<br /><br />
+<br />
 
 @if (Model.Coupon.ToList().Count > 0)
 {
 
-    <div class="border">
-        <div class="carousel" data-ride="carousel" data-interval="2500">
+    <div>
+        <div class="carousel" data-ride="carousel" data-interval="3500">
             @for (int i = 0; i < Model.Coupon.Count(); i++)
             {
                 if (i == 0)
@@ -17,7 +17,7 @@
                             var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
                         }
 
-                        <img src="@imgsrc" height="50" class="d-block w-100" />
+                        <img src="@imgsrc" height="80" class="d-block w-25" />
 
                     </div>
                 }
@@ -29,7 +29,7 @@
                             var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
                         }
 
-                        <img src="@imgsrc" height="50" class="d-block w-100" />
+                        <img src="@imgsrc" height="80" class="d-block w-25" />
 
                     </div>
                 }
@@ -42,8 +42,19 @@
 }
 
 <br /><br />
+<br /><br />
 
 <div class=" backgroundWhite container" >
+
+    <ul id="menu-filters" class="menu-filter-list list-inline text-center">
+        <li class="filter active btn btn-secondary ml-1 mr-2" data-filter="menu-ecommerce">Show All</li>
+        @foreach (var item in Model.Category)
+        {
+            <li class="filter ml-1 mr-2" data-filter=".@item.Name.Replace("", string.Empty)">@item.Name</li>
+        }
+    </ul>
+
+
     @foreach (var category in Model.Category)
     {
         <div class="row" id="menu-wrapper">
