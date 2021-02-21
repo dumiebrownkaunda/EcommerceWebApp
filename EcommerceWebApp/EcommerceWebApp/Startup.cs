@@ -32,8 +32,10 @@ namespace EcommerceWebApp
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnections")));
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            
 
             services.AddControllersWithViews();
 

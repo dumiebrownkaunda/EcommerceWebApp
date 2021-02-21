@@ -2,7 +2,7 @@
 
 @if (Model.Count() > 0)
 {
-    <div class="col-12 post @Model.FirstOrDefault().Category.Name.Replace("", string.Empty) menu-ecommerce ">
+    <div class="col-12 post @Model.FirstOrDefault().Category.Name.Replace(" ",string.Empty) menu-ecommerce">
 
         <div class="row">
             <h3 class="text-success">@Model.FirstOrDefault().Category.Name</h3>
@@ -11,7 +11,7 @@
         @foreach (var item in Model)
         {
             <div class="border border-info rounded col-12"  style="margin-bottom:10px; margin-top:10px; padding:10px">
-                <div class="row">
+                <div class="row">.
                     <div class="col-md-3 col-sm-12">
                         <img src="@item.Image" width="99"  style="border-radius:5px;border:1px solid #bbb9b9"/>
                     </div>
