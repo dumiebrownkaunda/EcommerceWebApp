@@ -33,6 +33,7 @@ namespace EcommerceWebApp
                     Configuration.GetConnectionString("DefaultConnections")));
 
             services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddDefaultUI()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             
