@@ -106,13 +106,13 @@
         @if (User.IsInRole(SD.ManagerUser))
         {
             <div class="form-group row">
-                <div class="col-2">
-                    <label asp-for="Input.ConfirmPassword" class="control-label"></label>
-                </div>
+            <div class="col-2">
+
+            </div>
                 <div class="col-5">
-                    <input type="radio" name="rdUserRole" value="@SD.StockUser" />
-                    <input type="radio" name="rdFrontDeskUser" value="@SD.FrontDeskUser" />
-                    <input type="radio" name="rdManagerRole" value="@SD.ManagerUser" />
+                    <input type="radio" name="rdUserRole" value="@SD.StockUser" checked/>@SD.StockUser &nbsp;
+                    <input type="radio" name="rdUserRole" value="@SD.FrontDeskUser" checked />@SD.FrontDeskUser &nbsp;
+                    <input type="radio" name="rdUserRole" value="@SD.ManagerUser" checked />@SD.ManagerUser
                 </div></div>
 
         }

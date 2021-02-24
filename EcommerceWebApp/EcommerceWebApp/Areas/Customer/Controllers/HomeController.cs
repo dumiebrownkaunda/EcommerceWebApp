@@ -9,6 +9,7 @@ using EcommerceWebApp.Models;
 using EcommerceWebApp.Models.ViewModels;
 using EcommerceWebApp.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EcommerceWebApp.Controllers
 {
@@ -34,10 +35,19 @@ namespace EcommerceWebApp.Controllers
 
             return View(indexViewModel);
         }
-
-        public IActionResult Privacy()
+        [Authorize]
+        public async Task<IActionResult> Details(int id)
         {
-            return View();
+            var menuItemFromDb = await _db.MenuItem.Include(m => m.Category)
+                                       .Include(m => m.SubCategory)
+                                       .Where(m => m.ID == id).FirstOrDefaultAsync();
+            ShoppingCart shoppingCart = new ShoppingCart()
+            {
+                MenuItem = menuItemFromDb,
+                MenuItemId = menuItemFromDb.ID
+            
+            };
+            return View(shoppingCart);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

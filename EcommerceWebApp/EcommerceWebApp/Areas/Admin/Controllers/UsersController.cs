@@ -25,5 +25,46 @@ namespace EcommerceWebApp.Areas.Admin.Controllers
 
             return View(await _dbContext.ApplicationUser.Where(u=>u.Id != claim.Value).ToListAsync());
         }
+
+        public async Task<IActionResult> Lock(string id) 
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var applicationUser = await _dbContext.ApplicationUser.Where(m => m.Id == id).FirstOrDefaultAsync();
+            if (applicationUser == null)
+            {
+                return NotFound();
+
+            }
+
+            applicationUser.LockoutEnd = DateTime.Now.AddYears(1000);
+
+           await  _dbContext.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult> UnLock(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var applicationUser = await _dbContext.ApplicationUser.Where(m => m.Id == id).FirstOrDefaultAsync();
+            if (applicationUser == null)
+            {
+                return NotFound();
+
+            }
+
+            applicationUser.LockoutEnd = DateTime.Now;
+
+            await _dbContext.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

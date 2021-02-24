@@ -28,6 +28,7 @@
                     </th>
                     <th>@Html.DisplayNameFor(m => m.Email)</th>
                     <th>@Html.DisplayNameFor(m => m.PhoneNumber)</th>
+                    <th>Lock/Unlock</th>
                 </tr>
                 @foreach (var item in Model)
                 {
@@ -42,8 +43,19 @@
                     @Html.DisplayFor(m => item.PhoneNumber)
                 </td>
                 <td>
-                    <a class="btn btn-success text-white " asp-action="Lock" asp-route-id="@item.Id"></a>
-                    <i class="fas fa-lock-open"></i>
+                    @if (item.LockoutEnd == null || item.LockoutEnd < DateTime.Now)
+                    {
+                        <a class="btn btn-success text-white " asp-action="Lock" asp-route-id="@item.Id">
+                            <i class="fa fa-key"></i>
+                        </a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger text-white " asp-action="UnLock" asp-route-id="@item.Id">
+                            <i class="fa fa-lock"></i>
+                        </a>
+                    }
+
                 </td>
             </tr>
                 }
