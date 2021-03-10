@@ -32,7 +32,7 @@ namespace EcommerceWebApp.Models
         public DateTime DeliveryDate { get; set; }
         [Display(Name ="Coupon Code")]
         public string CouponCode { get; set; }
-        public string CouponCodeDiscount{ get; set; }
+        public double CouponCodeDiscount{ get; set; }
         public string Status { get; set; }
         public string PaymentStatus { get; set; }
         public string Comment { get; set; }

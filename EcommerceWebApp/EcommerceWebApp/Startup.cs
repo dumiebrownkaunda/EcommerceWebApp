@@ -12,6 +12,8 @@ using EcommerceWebApp.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using EcommerceWebApp.Utility;
+using Stripe;
 
 namespace EcommerceWebApp
 {
@@ -36,6 +38,8 @@ namespace EcommerceWebApp
                 .AddDefaultUI()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.Configure<StripeSetings>(Configuration.GetSection("Stripe"));
             
 
             services.AddControllersWithViews();
@@ -67,6 +71,7 @@ namespace EcommerceWebApp
             app.UseStaticFiles();
             app.UseSession();
 
+            StripeConfiguration.ApiKey = Configuration.GetSection("Stripe")["SecretKey"];
             app.UseRouting();
 
             app.UseAuthentication();

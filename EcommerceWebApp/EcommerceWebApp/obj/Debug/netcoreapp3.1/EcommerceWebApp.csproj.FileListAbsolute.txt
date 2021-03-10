@@ -1216,6 +1216,8 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\EcommerceWebApp.Views.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\EcommerceWebApp.Views.pdb
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\EntityFramework.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
@@ -1266,6 +1268,7 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.CodeDom.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
@@ -1273,6 +1276,7 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -1334,6 +1338,8 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
@@ -1349,6 +1355,10 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Details.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Edit.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Create.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Delete.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Details.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Index.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\MenuItem\Create.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\MenuItem\Delete.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\MenuItem\Details.cshtml.g.cs
@@ -1359,8 +1369,12 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SubCategory\Details.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SubCategory\Edit.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SubCategory\Index.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Users\Index.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Summary.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
@@ -1414,6 +1428,7 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_StatusMessage.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThumbnailAreaPartial.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -1427,19 +1442,3 @@ C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWe
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\EcommerceWebApp.pdb
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\EcommerceWebApp.genruntimeconfig.cache
 C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\EcommerceWebApp.csprojAssemblyReference.cache
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\EntityFramework.dll
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.CodeDom.dll
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\EcommerceWebApp.csproj.CoreCompileInputs.cache
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\EcommerceWebApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\EcommerceWebApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Index.cshtml.g.cs
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Create.cshtml.g.cs
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Details.cshtml.g.cs
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Coupon\Delete.cshtml.g.cs
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThumbnailAreaPartial.cshtml.g.cs
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Users\Index.cshtml.g.cs
-C:\Users\kaunda.dum\Documents\GitHub\EcommerceWebApp\EcommerceWebApp\EcommerceWebApp\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs

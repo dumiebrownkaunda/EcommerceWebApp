@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Http;
+using EcommerceWebApp.Utility;
 
 namespace EcommerceWebApp.Controllers
 {
@@ -37,10 +38,10 @@ namespace EcommerceWebApp.Controllers
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
-            if (claim == null)
+            if (claim != null)
             {
                 var cnt = _db.ShoppingCart.Where(u => u.ApplicationUserId == claim.Value).ToList().Count;
-                HttpContext.Session.SetInt32("SD.ssShoppingCartCount", cnt);
+                HttpContext.Session.SetInt32(SD.ssShoppingCartCount, cnt);
 
             }
             return View(indexViewModel);
