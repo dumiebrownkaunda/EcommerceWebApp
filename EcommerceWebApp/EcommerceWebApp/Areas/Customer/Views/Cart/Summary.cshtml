@@ -1,4 +1,8 @@
 ﻿@model EcommerceWebApp.Models.ViewModels.OrderDetailsCart
+@using Microsoft.Extensions.Options
+
+@inject IOptions<EcommerceWebApp.Utility.StripeSetings> Stripe
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -83,7 +87,7 @@
                                                 <h6 class="my-0">@details.MenuItem.Name</h6>
                                                 <small class="text-muted">Quantity:@details.Count</small>
                                             </div>
-                                            <span class="text-muted">$@(details.MenuItem.Price* details.Count)</span>
+                                            <span class="text-muted">$@(details.MenuItem.Price * details.Count)</span>
                                             @{ total += (details.MenuItem.Price * details.Count);}
                                         </li>
 
@@ -112,6 +116,12 @@
                 <div class="card-footer">
                     <div class="row">
                         <div class="col-12 col-md-4 offset-md-8">
+
+                            @{
+                                var OrderTotalForStrip = Model.OrderHeader.OrderTotal * 100;
+                            }
+
+                           @* <button type="button" id="checkout-button">Pay</button>*@
                             <button class="btn btn-success form-control" type="submit" id="btnPlaceHolder" onclick="return validateInput()" value="Place Order">Place Order</button>
                         </div>
                     </div>
@@ -129,11 +139,12 @@
 
 @section Scripts{
     <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script src="https://js.stripe.com/v3"></script>
     <script>
         $(function () {
 
             var minDt = 0;
-            if (getTimeFromCurrentDate >= 06 ) {
+            if (getTimeFromCurrentDate >= 06) {
                 minDt = 1;
             }
             $("#datepicker").datepicker({ minDate: minDt, maxDate: "+1W" });
@@ -212,6 +223,25 @@
             }
         }
 
-        
+
     </script>
+    <script>
+        var stripe = Stripe('pk_test_51ITSCPLrAwvWJsjYlZyqXguV5kZfv6wtagd4eTM1mCX2G6MEX7dESzjSZCGtYMHxyZmK6V00Z5GlOVQ9C1NW0Qqk00zeow5hUb');
+
+        var checkoutButton = document.querySelector('#checkout-button');
+        checkoutButton.addEventListener('click', function () {
+            stripe.redirectToCheckout({
+                lineItems: [{
+                    // Define the product and price in the Dashboard first, and use the price
+                    // ID in your client-side code.
+                    price: '{PRICE_ID}',
+                    quantity: 1
+                }],
+                mode: 'payment',
+                successUrl: 'https://www.example.com/success',
+                cancelUrl: 'https://www.example.com/cancel'
+            });
+        });
+    </script>
+
 }
