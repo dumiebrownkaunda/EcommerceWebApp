@@ -120,8 +120,20 @@
                             @{
                                 var OrderTotalForStrip = Model.OrderHeader.OrderTotal * 100;
                             }
+                            <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                    data-keyboard="@Stripe.Value"
+                                    data-amount="@OrderTotalForStrip"
+                                    data-name="Ultra Store"
+                                    data-label="Best Ecommerce store"
+                                    data-locale="auto"
+                                    data-allow-remember-me="false"
+                                    data-image="https://stripe.com/img/documentation/checkout/marketplace.png">
 
-                           @* <button type="button" id="checkout-button">Pay</button>*@
+                            </script>
+                            <script>
+                                document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
+                            </script>
+                          
                             <button class="btn btn-success form-control" type="submit" id="btnPlaceHolder" onclick="return validateInput()" value="Place Order">Place Order</button>
                         </div>
                     </div>
@@ -232,8 +244,6 @@
         checkoutButton.addEventListener('click', function () {
             stripe.redirectToCheckout({
                 lineItems: [{
-                    // Define the product and price in the Dashboard first, and use the price
-                    // ID in your client-side code.
                     price: '{PRICE_ID}',
                     quantity: 1
                 }],
