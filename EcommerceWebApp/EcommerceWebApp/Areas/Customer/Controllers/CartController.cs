@@ -10,6 +10,7 @@ using EcommerceWebApp.Utility;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Stripe;
 
 namespace EcommerceWebApp.Areas.Customer.Controllers
 {
@@ -111,7 +112,7 @@ namespace EcommerceWebApp.Areas.Customer.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName("Summary")]
-        public async Task<IActionResult> SummaryPost()
+        public async Task<IActionResult> SummaryPost(string stripeToken)
         {
             var claimIdentity = (ClaimsIdentity)User.Identity;
             var claim = claimIdentity.FindFirst(ClaimTypes.NameIdentifier);
@@ -167,14 +168,47 @@ namespace EcommerceWebApp.Areas.Customer.Controllers
             HttpContext.Session.SetInt32(SD.ssShoppingCartCount, 0);
             await _dbContext.SaveChangesAsync();
 
+            var options = new ChargeCreateOptions
+            {
+                Amount = Convert.ToInt32(detailsCart.OrderHeader.OrderTotal * 100),
+                Currency = "usd",
+                Description = "Order ID: " + detailsCart.OrderHeader.Id,
+                Source = stripeToken
+            };
+
+            var service = new ChargeService();
+
+            Charge charge = service.Create(options);
+            if (charge.BalanceTransactionId == null)
+            {
+
+                detailsCart.OrderHeader.Status = SD.PaymentStatusRejected;
+            }
+            else
+            {
+                detailsCart.OrderHeader.TransactionRef = charge.BalanceTransactionId;
+            }
+
+            if (charge.Status.ToLower() == "succeeded")
+            {
+                detailsCart.OrderHeader.PaymentStatus = SD.PaymentStatusApproved;
+                detailsCart.OrderHeader.Status = SD.StatusSubmitted;
+
+            }
+            else
+            {
+                detailsCart.OrderHeader.PaymentStatus = SD.PaymentStatusRejected;
+            }
+
+            await _dbContext.SaveChangesAsync();
+
             return RedirectToAction("Index", "Home");
-           // return RedirectToAction("Confirm", "Order", new { id = detailsCart.OrderHeader.Id});
+           
         }
         public IActionResult AddCoupon()
         {
            if (detailsCart.OrderHeader.CouponCode == null)
             {
-
                 detailsCart.OrderHeader.CouponCode = ""; 
             }
 
